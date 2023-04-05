@@ -1,14 +1,14 @@
 {
   "name": "eleventy-basic",
   "version": "1.0.0",
-  "description": "Your Site Description Goes Here",
+  "description": "As a product manager, I created this website to highlight my accomplishments and showcase how to manage and maximize the life cycle of investment programs, projects, and outcomes in order to best achieve an organization's overall goals and objectives.",
   "main": "index.html",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "Mirlinda Pacolli",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
