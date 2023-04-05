@@ -1,5 +1,5 @@
 ---
-siteName: YourSiteName
+siteName: Mirlinda Pacolli
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -19,25 +19,72 @@ siteName: YourSiteName
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-        <!-- add site wide header content here -->
-        {% include "nav-basic.njk" %}
+    <!-- add site wide header content here -->
+    {% include "nav-basic.njk" %}
   </header>
 
   {{ content | safe }}
 
   <footer class="site-footer">
-    <div>
-      <p>&copy; {{ pkg.author }}</p>
-      <!-- You can change all of this footer content. -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About me</h6>
+          <ul class="footer-links">
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Information</h6>
+          <ul class="footer-links">
+            <li>111 111 111</li>
+            <li>New York</li>
+            <li>mirlindapacolli@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Mirlinda Pacolli.</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/js/main.js"></script>
 </body>
 </html>
