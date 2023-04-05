@@ -60,6 +60,6 @@ tags: navItem
     </div>
   </div>
   <div class="get-in-touch-img">
-    <img src="/images/get-in-touch.png" alt="">
+    <img src="/images/get-in-touch.png" alt="get-in-touch-img">
   </div>
 </div>

@@ -20,8 +20,8 @@ tags: navItem
         and guaranteeing a human response for every question.
     </p>
     <div class="product-test-case-images">
-        <img src="/images/project1.jpg" alt="" class="project-img1">
-        <img src="/images/project2.jpg" alt="" class="project-img2">
+        <img src="/images/project1.jpg" alt="project1-img" class="project-img1">
+        <img src="/images/project2.jpg" alt="project2-img" class="project-img2">
     </div>
     <p>
         With 32% of our consumers citing our Support Team as the main reason they use our product, it becomes clear why our users chose us in the first place. Outside of Support, people rate our Pricing and Usability as fair, and at this time, improving our feature set and capabilities is our biggest opportunity.

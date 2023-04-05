@@ -6,7 +6,7 @@ tags: navItem
 
 <section class="about-me">
     <div class="about-me-text">
-        <img src="/images/about-me.jpeg" alt="about me image">
+        <img src="/images/about-me.jpeg" alt="about-me-img">
         <h3>A LITTLE ABOUT ME</h3>
         <p>
             I've worked in product management and business intelligence for more than two
