@@ -1,20 +1,19 @@
 {
-  "name": "eleventy-basic",
+  "name": "eleventy-starter",
   "version": "1.0.0",
-  "description": "Your Site Description Goes Here",
-  "main": "index.html",
+  "description": "This is a base starter eleventy repository",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "eleventy",
+    "start": "eleventy --serve --quiet"
   },
-  "keywords": [],
-  "author": "Your Name",
-  "license": "ISC",
+  "author": "Mirlinda Pacolli",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.3.2"
+    "@11ty/eleventy-navigation": "^0.1.4",
+    "js-yaml": "^3.13.1",
+    "luxon": "^1.22.0",
+    "node-fetch": "^2.6.0"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "@11ty/eleventy": "^2.0.0"
   }
 }
